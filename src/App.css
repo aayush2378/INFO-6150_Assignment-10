@@ -1,0 +1,98 @@
+/* app.css */
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styling for WeatherForecast component */
+  .weather-today {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .weather-today h2 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .weather-icon {
+    font-size: 48px;
+    vertical-align: middle;
+  }
+  
+/* App.css */
+
+/* Add a new class for the container */
+.daily-forecast-container {
+    margin-top: 50px;
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  /* Adjust styles for each forecast card */
+  .daily-forecast-card {
+    flex: 0 0 auto;
+    width: 200px; /* Set a fixed width for each card */
+    margin-right: 15px; /* Add margin between cards */
+  }
+  
+  /* Additional styles as needed */
+  
+
+  /* Styling for DailyForecast component */
+  .daily {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  /* Styling for HourlyForecast component */
+  .hourly-data {
+    background-color: #fff;
+    border: 3px solid #343a40;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hourly-data h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .hourly-data p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
